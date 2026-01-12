@@ -83,9 +83,9 @@ h4 {
     margin-top: 5px;
 }
 footer {
-    background-color: green;
+    background: green;
     color: white;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 footer article {
@@ -99,7 +99,10 @@ footer article {
 .social-links a {
     color: white;
     font-size: 18px;
-    margin: 0 8px;
+    margin: 0 10px;
+}
+.social-links a:hover{
+    color: blue;
 }
 @media (max-width: 768px) {
     section h2 {
