@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background: green;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    /* padding: 20px; */
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+picture div {
+    width: 220px;
+}
+
+.img_cric {
+    width: 100%;
+    border-radius: 8px;
+}
+
+picture a {
+    text-decoration: none;
+    color: black;
+}
+
+picture h3 {
+    margin-top: 8px;
+}
+footer {
+    background: green;
+    color: white;
+    padding: 20px 10px;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.social-links a:hover{
+    color: blue;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    picture div {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    picture div {
+        width: 100%;
+    }
+}

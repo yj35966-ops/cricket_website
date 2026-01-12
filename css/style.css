@@ -1,6 +1,6 @@
 nav{
     color: white;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     font-size: 20px;
     height: 25px;
 }
@@ -35,11 +35,36 @@ h2{
 }
 .img_bats{
     height: 180px;
-    width: 180px;
+    width: 200px;
 }
 h4{
     text-align: center;
     margin-bottom: 50px;
 }
+article{
+    text-align: center;
+}
+.history{
+    height: 200px;
+    width: 400px;
+    padding-left: 10px;
+}
+h5{
+    font-size: 18px;
+    color: green;
+    padding: 10px;
+    margin-top: 30px;
+}
+.pad{
+    padding-left: 10px;
+}
+.c_form{
+    border-radius: 30px;
+    
+}
+.submit{
+    background-color: green;
+}
+
 
 
