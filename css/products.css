@@ -33,6 +33,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    transform: scale(1.08);
 }
 main {
     /* padding: 20px; */
@@ -55,13 +56,15 @@ picture {
     margin-bottom: 30px;
 }
 
-picture div {
+picture div  {
     width: 200px;
     text-align: center;
     border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
     transition: transform 0.3s;
+    box-shadow: 7px 7px 8px grey;
+    height: 300px;
 }
 
 picture div:hover {

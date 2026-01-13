@@ -19,18 +19,22 @@ picture{
     align-items: center;  
 }
 .img_cric{
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 110px;
     padding-left: 10px;
+    box-shadow: 7px 7px 8px grey;
+}
+.img_cric:hover{
+    transform: scale(1.05);
 }
 h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     font-size: 13px;
     color: green;
 }
 h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     color: green;
 }
 .img_bats{
@@ -45,9 +49,9 @@ article{
     text-align: center;
 }
 .history{
-    height: 200px;
+    /* height: 200px;
     width: 400px;
-    padding-left: 10px;
+    padding-left: 10px; */
 }
 h5{
     font-size: 18px;
