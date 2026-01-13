@@ -58,7 +58,7 @@ picture {
 picture div {
     width: 200px;
     text-align: center;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
     transition: transform 0.3s;
@@ -77,7 +77,9 @@ h3 {
     font-size: 18px;
     margin-top: 10px;
 }
-
+h2{
+    text-decoration: underline;
+}
 h4 {
     color: green;
     margin-top: 5px;
