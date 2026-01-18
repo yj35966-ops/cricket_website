@@ -1,6 +1,5 @@
 nav{
     color: white;
-    /* background-color: lightgreen; */
     font-size: 20px;
     height: 25px;
 }
@@ -11,7 +10,6 @@ h1{
     text-align: center;
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
 }
 picture{
     display: flex;
@@ -52,11 +50,6 @@ h4{
 }
 article{
     text-align: center;
-}
-.history{
-    /* height: 200px;
-    width: 400px;
-    padding-left: 10px; */
 }
 h5{
     font-size: 18px;
